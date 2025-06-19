@@ -1,0 +1,53 @@
+# Python
+*.pyc
+__pycache__/
+venv/
+env/
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.pth
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage/
+*.mo
+*.pot
+*.log
+.mypy_cache/
+.pytest_cache/
+.vscode/ # VS Code settings
+.idea/   # PyCharm/IntelliJ settings
+
+# Django
+*.log
+*.sqlite3
+media/
+static/
+
+# Environment variables
+.env
+.flaskenv
+
+# Other OS-specific files
+.DS_Store
+.Trashes
+Thumbs.db
+
+# Other temporary files
+*~
+*.swp
