@@ -1,0 +1,16 @@
+modules = ["python-3.12"]
+
+[nix]
+channel = "stable-24_05"
+
+[workflows]
+runButton = "Start Django Server"
+
+[[workflows.workflow]]
+name = "Start Django Server"
+author = 44064497
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python manage.py runserver 0.0.0.0:5000"
